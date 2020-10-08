@@ -1,0 +1,39 @@
+en:
+  nav-items:
+    - name: Services
+      url: about
+    - name: About
+      url: 'about#us'
+  big-nav-items:
+    - name: info@vipglobal.sk
+      tagline: Email us
+      url: 'mailto:info@vipglobal.sk?subject=Website Enquiry'
+    - name: +421 917 066 302
+      tagline: Call us
+      url: 'tel:00421917066302'
+de:
+  nav-items:
+    - name: Leistungen
+      url: about
+    - name: Über uns
+      url: 'about#us'
+  big-nav-items:
+    - name: info@vipglobal.sk
+      tagline: E-mail
+      url: 'mailto:info@vipglobal.sk?subject=Website Enquiry'
+    - name: +421 917 066 302
+      tagline: Anruf
+      url: 'tel:00421917066302'
+sk:
+  nav-items:
+    - name: Služby
+      url: about
+    - name: O nás
+      url: 'about#us'
+  big-nav-items:
+    - name: info@vipglobal.sk
+      tagline: Email
+      url: 'mailto:info@vipglobal.sk?subject=Website Enquiry'
+    - name: +421 917 066 302
+      tagline: Zavolajte nám
+      url: 'tel:00421917066302'

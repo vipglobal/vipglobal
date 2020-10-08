@@ -1,0 +1,38 @@
+<!-- START VIP Global Navigation -->
+
+  <div class="navbar-4 w-nav" data-animation="default" data-collapse="medium" data-duration="400" role="banner">
+	<div class="navbar-4-container">
+		<a class="brand-2 w-nav-brand" href="/{{ page.lang }}/index"><img alt="" class="logo-nav" sizes="(max-width: 479px) 90px, 120px" src="/images/VIP-logo-2019_7_red_short.png" width="120"></a>
+		<nav class="nav-menu-6 w-nav-menu" role="navigation">
+
+			{% for nav-item in site.data.nav.[page.lang].nav-items %}
+				<a class="navlink-4 w-nav-link" href="/{{ page.lang }}/{{ nav-item.url }}">{{ nav-item.name }}</a>
+			{% endfor %}
+			
+			{% for big-nav-item in site.data.nav.[page.lang].big-nav-items %}
+			<div class="contact-details-wrap">
+				<a class="yellow-nav-link" href="{{ big-nav-item.url }}">{{ big-nav-item.name }}</a>
+				<div class="text-block-3">{{ big-nav-item.tagline }}</div>
+			</div>
+			{% endfor %}
+		
+		</nav>
+
+
+
+		<div class="menu-button-3 w-nav-button">
+			<div class="yellow-nav-link">
+				MENU
+			</div>
+		</div>
+	</div>
+	<div class="w-dropdown" data-delay="0">
+		<div class="lang-dropdown w-dropdown-toggle">
+		<div class="icon-5 w-icon-dropdown-toggle"></div><img alt="Change Language" class="flag-icon" src="/images/flag-usa.svg"></div>
+		<nav class="dropdown-list w-dropdown-list">
+			<a class="dropdown-link w-inline-block" href="/de/{{ page.ref }}"><img alt="German" class="flag-icon" src="/images/flag-germany.svg"></a><a class="dropdown-link w-inline-block" href="/sk/{{ page.ref }}"><img alt="Slovak" class="flag-icon" src="/images/flag-slovakia.svg"></a>
+		</nav>
+	</div>
+</div>
+
+<!-- END VIP Global Navigation -->

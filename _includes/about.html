@@ -1,0 +1,48 @@
+{% assign lang = site.data.about[page.lang] %}
+
+  <div id="services" class="section-header">
+    <div class="w-container">
+      <h1 class="section-heading">{{ lang.services-title }}</h1>
+    </div>
+  </div>
+
+
+<!-- START SERVICES SECTION -->
+
+  <section id="feature-section" class="feature-section">
+
+    {% for service in site.data.about.[page.lang].services %}
+        <div class="service-container w-container">
+          <div class="feature-image-mask"><img src="/{{ service.img-url }}" alt="" class="feature-image">
+          </div>
+          <div class="feature-text-container">
+            <h2>{{ service.name }}</h2>
+            <p>{{ service.desc }}</p>
+          </div>
+        </div>
+    {% endfor %}
+
+  </section>
+
+<!-- END SERVICES SECTION -->
+
+
+
+<!-- START ABOUT SECTION -->
+
+  <div id="us" class="section-header about-img">
+    <div class="w-container">
+      <h1 class="section-heading">{{ lang.about-title }}</h1>
+    </div>
+  </div>
+  <div class="section">
+    <div class="text-container w-container">
+      <div class="w-richtext">
+        {{ lang.about-content }}
+      </div>
+    </div>
+  </div>
+  <!-- END ABOUT SECTION -->
+
+  <!-- CTA -->
+  {% include cta.html %}

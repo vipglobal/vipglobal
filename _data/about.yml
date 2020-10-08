@@ -1,0 +1,89 @@
+# Services
+en:
+  services-title: What services do we offer?
+  services:
+    - name: Europe-wide delivery
+      desc: >-
+        At the moment, we can pick freight up from and deliver it to the
+        following European countries&colon;
+      img-url: images/car_drive.gif
+    - name: We ship all kinds of goods
+      desc: >-
+        We don’t limit you in terms of size, weight and shape, as long as our
+        trucks can handle it (and trust us, they can handle most things).
+      img-url: images/living_room_furniture_suitcase-9.png
+
+# About
+  about-title: About us
+  about-content: >-
+    <h3>You trust us with your shipments, and we don&#x27;t take that trust&nbsp;lightly.</h3>
+
+    <p>Our team will be one call away throughout the duration of your shipment. 
+    We take out responsibilities towards our customers seriously and honor your deadlines 
+    to the best of our abilities. If you have any questions, we’ll be happy to offer answers—
+    just shoot us an email or give us a call.</p>
+
+    <h3>Who are we?</h3>
+
+    <p>A team of experienced drivers and managers, constantly expanding our reach 
+    with the aim of making freight shipments as pain-free as they can be, 
+    for as many people as we can reach.</p>
+
+## GERMAN
+de: 
+  services-title: Welche Dienstleistungen bieten wir an?
+  services:
+    - name: Europaweite Zustellung
+      desc: >-
+        Im Moment können wir Fracht abholen und an die
+        folgende europäische Länder&colon;
+      img-url: images/car_drive.gif
+    - name: Wir versenden alle Arten von Gütern
+      desc: >-
+        Wir schränken Sie in Bezug auf Größe, Gewicht und Form nicht ein, solange unsere
+        Lastwagen können damit umgehen (und vertrauen Sie uns, sie können die meisten Sachen schaffen).
+      img-url: images/living_room_furniture_suitcase-9.png
+
+      # About
+  about-title: Über uns
+  about-content: >-
+    <h3>Sie vertrauen uns Ihre Sendungen an, und wir nehmen dieses Vertrauen nicht auf die leichte Schulter.</h3>
+
+    <p>Unser Team ist während der gesamten Dauer Ihrer Sendung nur einen Anruf entfernt. 
+    Wir nehmen die Verantwortung gegenüber unseren Kunden ernst und halten Ihre Termine ein 
+    nach bestem Wissen und Gewissen. Wenn Sie Fragen haben, geben wir Ihnen gerne Antworten.
+    Schicken Sie uns einfach eine E-Mail oder rufen Sie uns an.</p>
+
+    <h3>Wer sind wir?</h3>
+
+    <p>Ein Team von erfahrenen Fahrern und Managern, das unsere Abdeckung ständig erweitert 
+    mit dem Ziel, Frachttransporte so schmerzfrei wie möglich zu machen, 
+    für so viele Menschen, wie wir erreichen können.</p>
+
+## SLOVAK
+sk:
+  services-title: Aké služby ponúkame?
+  services:
+    - name: Doručenie po celej Európe
+      desc: >-
+        V tejto chvíli môžeme vyzdvihnúť náklad a doručiť ho do nasledujúcich európskych krajín&colon;
+      img-url: images/car_drive.gif
+    - name: Zasielame všetky druhy tovaru
+      desc: >-
+        Neobmedzujeme vás z hľadiska veľkosti, hmotnosti a tvaru, 
+        pokiaľ to naše nákladné vozidlá zvládnu (a verte nám, že zvládnu väčšinu vecí).
+      img-url: images/living_room_furniture_suitcase-9.png
+
+# About
+  about-title: O nás
+  about-content: >-
+    <h3>Dôverujete nám so svojimi zásielkami a túto dôveru neberieme na ľahkú váhu.</h3>
+
+    <p>Náš tím bude vzdialený jeden hovor po celú dobu vašej zásielky. 
+    Berieme povinnosti voči našim zákazníkom vážne a podľa našich schopností dodržujeme vaše termíny. 
+    Ak máte akékoľvek otázky, radi vám ponúkneme odpovede - jednoducho nám napíšte e-mail alebo zavolajte.</p>
+
+    <h3>Kto sme mi?</h3>
+
+    <p>Tím skúsených vodičov a manažérov neustále rozširuje náš dosah s cieľom dosiahnuť, 
+    aby boli nákladné zásielky bezbolestné, ako len môžu byť, pre toľko ľudí, ako môžeme dosiahnuť.</p>

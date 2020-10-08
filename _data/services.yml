@@ -1,0 +1,8 @@
+en:
+  service-items: #url without /
+    - name: Europe-wide delivery
+      desc: At the moment, we can pick freight up from and deliver it to the following European countries
+      img-url: images/car_drive.gif
+    - name: We ship all kinds of goods
+      desc: We don’t limit you in terms of size, weight and shape, as long as our trucks can handle it (and trust us, they can handle most things).
+      img-url: images/living_room_furniture_suitcase-9.png

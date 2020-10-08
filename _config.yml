@@ -4,18 +4,12 @@
 # Site settings
 # If you look in the HTML files, you will see them accessed via
 # {{ site.title }}, {{ site.email }}, and so on.
-title: 🚚 VIP Global Service | COMING SOON
-description: >- # this means to ignore newlines until the next point
+title: VIP Global Service - Express Freight
+meta-desc: We transport shipments across Europe. Next-day delivery guaranteed.
 
 # Build settings
 markdown: kramdown
-
 permalink: pretty
-
-exclude:
- - Gemfile
- - Gemfile.lock
- - README.md
 
 # Access values inside YML files within the _text folder using
 # {{{{ item.VALUE }}FILENAME}}

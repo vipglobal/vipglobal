@@ -1,0 +1,104 @@
+{% assign lang = site.data.home[page.lang] %}
+
+<div id="Hero" class="basic-section hero-section">
+    <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar-1 w-nav"></div>
+    <div class="header-1-container">
+      <div class="hero-small-text">{{ lang.hero-small-text }}</div>
+      <h1 class="header-1-h1">{{ lang.hero-display }}</h1>
+    </div>
+  </div>
+</div>
+
+{% include typeform-{{page.lang}}.html %}
+
+
+  <div id="about" class="header-2 edge">
+    <div class="hero-2-left-content"></div>
+    <div class="hero-2-right-content">
+      <div class="hero-2-title-wrapper">
+        <div class="hero-small-text dark">{{ lang.our-company }}</div>
+        <h1 class="hero-2-header">{{ lang.who-title }}</h1>
+        <h1 class="section-text">{{ lang.who-desc }}<br></h1>
+
+        <a href="/{{ page.lang }}/about" class="button-cta blue caps w-button">{{ lang.services }}</a>
+        <a href="/{{ page.lang }}/about#us" class="button-cta green caps w-button">{{ lang.about }}</a>
+
+      </div>
+    </div>
+  </div>
+  <div id="features" class="basic-section">
+    <div class="wrap w50-start">
+      <div class="_3-col">
+        <div class="content9-item-wrap"><img src="/images/clock.png" width="20" sizes="(max-width: 991px) 60.333343505859375px, 60.33332824707031px" srcset="/images/clock-p-500.png 500w, images/clock-p-800.png 800w, images/clock-p-1080.png 1080w, images/clock.png 1100w" alt="" class="content-icon iso">
+          <h3 class="features-text"><strong>{{ lang.feature-1 }}</strong></h3>
+          <p class="text-15 text-15-80">{{ lang.feature-1-desc }}</p>
+        </div>
+      </div>
+      <div class="_3-col">
+        <div class="content9-item-wrap"><img src="/images/truck.png" width="20" sizes="(max-width: 991px) 106.91665649414062px, 106.91667175292969px" srcset="/images/truck-p-500.png 500w, images/truck-p-800.png 800w, images/truck-p-1080.png 1080w, images/truck.png 1299w" alt="" class="content-icon iso">
+          <h3 class="features-text">{{ lang.feature-2 }}</h3>
+          <p class="text-15 text-15-80">{{ lang.feature-2-desc }}</p>
+        </div>
+      </div>
+      <div class="_3-col">
+        <div class="content9-item-wrap"><img src="/images/lock_S.png" width="20" sizes="100px" srcset="/images/lock_S-p-500.png 500w, images/lock_S-p-800.png 800w, images/lock_S-p-1080.png 1080w, images/lock_S-p-1600.png 1600w, images/lock_S-p-2000.png 2000w, images/lock_S-p-2600.png 2600w, images/lock_S-p-3200.png 3200w, images/lock_S.png 4000w" alt="" class="content-icon iso">
+          <h3 class="features-text">{{ lang.feature-3 }}</h3>
+          <p class="text-15 text-15-80">{{ lang.feature-3-desc }}</p>
+        </div>
+      </div>
+      <div class="_3-col _3-col-last">
+        <div class="content9-item-wrap"><img src="/images/phone_S.png" width="20" sizes="100px" srcset="/images/phone_S-p-500.png 500w, images/phone_S-p-800.png 800w, images/phone_S-p-1080.png 1080w, images/phone_S-p-1600.png 1600w, images/phone_S-p-2000.png 2000w, images/phone_S-p-2600.png 2600w, images/phone_S-p-3200.png 3200w, images/phone_S.png 4000w" alt="" class="content-icon iso">
+          <h3 class="features-text">{{ lang.feature-4 }}</h3>
+          <p class="text-15 text-15-80">{{ lang.feature-4-desc }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="gallery-section">
+    <div class="wrap w50-50">
+      <div class="headline-6-col">
+        <div class="hero-small-text dark">{{ lang.gallery-title }}</div>
+        <h1 class="hero-2-header">{{ lang.gallery-sub }}</h1>
+      </div>
+      <div class="blog1-articles-wrap">
+        <div class="_7-col">
+          <div class="blog1-article blog1-article-left-wrapper">
+            <div class="blog1-article-cover blog1-article-cover-2"></div>
+            <div>
+              <h2>{{ lang.gallery-text-1 }}</h2>
+            </div>
+          </div>
+        </div>
+        <div class="_5-col _5-col-last">
+          <div class="blog1-article blog4-article-right-wrapper">
+            <div>
+              <h2>{{ lang.gallery-text-2 }}</h2>
+              <div class="tagline">{{ lang.gallery-text-3 }}</div>
+            </div>
+            <div class="blog1-article-cover blog1-article-cover-1"></div>
+          </div>
+        </div>
+      </div>
+      <div class="blog1-articles-wrap">
+        <div class="_7-col">
+          <div class="blog1-article blog1-article-left-wrapper">
+            <div class="blog1-article-cover blog1-article-cover--3"></div>
+            <div>
+              <h2>{{ lang.gallery-text-4 }}</h2>
+            </div>
+          </div>
+        </div>
+        <div class="_5-col _5-col-last">
+          <div class="blog1-article blog4-article-right-wrapper">
+            <div>
+              <h2>{{ lang.gallery-text-5 }}</h2>
+              <div class="tagline">{{ lang.gallery-text-6 }}</div>
+            </div>
+            <div class="blog1-article-cover blog1-article-cover-4"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% include cta.html %}
