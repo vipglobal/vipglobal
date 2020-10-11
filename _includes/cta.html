@@ -1,22 +1,25 @@
+{% assign lang = site.data.cta[page.lang] %}
+
 <!-- START CTA -->
 <div class="cta-contact" id="cta">
 <div class="hero-3-left-content">
   <div class="hero-3-title-wrapper">
     <div class="hero-small-text dark">
-      Ship express across europe
+      {{ site.data.cta.[page.lang].subtitle }}
     </div>
-    <h1 class="hero-3-header">Get a Quote</h1><a class="alert-button w-inline-block" href="/{{ page.lang }}/#form"><img alt="" class="cta-icon" sizes="80px" src="/images/laptop.png" srcset="/images/laptop-p-500.png 500w, /images/laptop-p-800.png 800w, /images/laptop-p-1080.png 1080w, /images/laptop.png 1219w">
+    <h1 class="hero-3-header">{{ site.data.cta.[page.lang].get-a-quote }}</h1>
+    <a class="alert-button w-inline-block" href="/{{ page.lang }}/typeform"><img alt="" class="cta-icon" sizes="80px" src="/images/laptop.png" srcset="/images/laptop-p-500.png 500w, /images/laptop-p-800.png 800w, /images/laptop-p-1080.png 1080w, /images/laptop.png 1219w">
     <div class="title-text-2">
-      Online
+      {{ site.data.cta.[page.lang].online }}
     </div></a>
-    <a class="alert-button green w-inline-block" href="tel:+421123456789"><img alt="" class="cta-icon" sizes="80px" src="/images/phone.png" srcset="/images/phone-p-500.png 500w, /images/phone-p-800.png 800w, /images/phone-p-1080.png 1080w, /images/phone.png 1154w">
+    <a class="alert-button green w-inline-block" href="tel:00421917066302"><img alt="" class="cta-icon" sizes="80px" src="/images/phone.png" srcset="/images/phone-p-500.png 500w, /images/phone-p-800.png 800w, /images/phone-p-1080.png 1080w, /images/phone.png 1154w">
     <div class="title-text-2">
-      Phone Call
+      {{ site.data.cta.[page.lang].phone-call }}
     <br>
     </div></a>
     <a class="alert-button orange w-inline-block" href="mailto:info@vipglobal.sk?subject=Request%20for%20Quote"><img alt="" class="cta-icon" sizes="80px" src="/images/mail.png" srcset="/images/mail-p-500.png 500w, /images/mail-p-800.png 800w, /images/mail-p-1080.png 1080w, /images/mail-p-1600.png 1600w, /images/mail.png 1649w">
     <div class="title-text-2">
-      Email
+      {{ site.data.cta.[page.lang].email }}
     </div></a>
   </div>
 </div><img alt="" class="feature-right" sizes="(max-width: 767px) 100vw, 50vw" src="/images/256316-P4ELH2-302-copy.jpg" srcset="/images/256316-P4ELH2-302-copy-p-500.jpeg 500w, /images/256316-P4ELH2-302-copy-p-800.jpeg 800w, /images/256316-P4ELH2-302-copy-p-1080.jpeg 1080w, /images/256316-P4ELH2-302-copy.jpg 1200w"></div>

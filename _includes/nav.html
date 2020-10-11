@@ -18,20 +18,54 @@
 		
 		</nav>
 
-
-
 		<div class="menu-button-3 w-nav-button">
 			<div class="yellow-nav-link">
 				MENU
 			</div>
 		</div>
 	</div>
+
 	<div class="w-dropdown" data-delay="0">
 		<div class="lang-dropdown w-dropdown-toggle">
-		<div class="icon-5 w-icon-dropdown-toggle"></div><img alt="Change Language" class="flag-icon" src="/images/flag-usa.svg"></div>
+		<div class="icon-5 w-icon-dropdown-toggle"></div>
+		<img alt="Change Language" class="flag-icon" src="/images/
+		{% if page.lang == 'en' %}
+		flag-usa
+		{% else %}
+			{% if page.lang == 'de' %}
+			flag-germany
+			{% else %}
+			flag-slovakia
+			{% endif %}
+		{% endif %}
+		.svg
+		">
+	</div>
+
 		<nav class="dropdown-list w-dropdown-list">
-			<a class="dropdown-link w-inline-block" href="/de/{{ page.ref }}"><img alt="German" class="flag-icon" src="/images/flag-germany.svg"></a><a class="dropdown-link w-inline-block" href="/sk/{{ page.ref }}"><img alt="Slovak" class="flag-icon" src="/images/flag-slovakia.svg"></a>
+
+			{% if page.lang == 'en' %}
+				<a class="dropdown-link w-inline-block" href="/de/{{ page.ref }}">
+					<img alt="German" class="flag-icon" src="/images/flag-germany.svg"></a>
+				<a class="dropdown-link w-inline-block" href="/sk/{{ page.ref }}">
+					<img alt="Slovak" class="flag-icon" src="/images/flag-slovakia.svg"></a>
+			{% else %}
+				{% if page.lang == 'de' %}
+					<a class="dropdown-link w-inline-block" href="/en/{{ page.ref }}">
+						<img alt="German" class="flag-icon" src="/images/flag-usa.svg"></a>
+					<a class="dropdown-link w-inline-block" href="/sk/{{ page.ref }}">
+						<img alt="Slovak" class="flag-icon" src="/images/flag-slovakia.svg"></a>
+				{% else %}
+					<a class="dropdown-link w-inline-block" href="/de/{{ page.ref }}">
+						<img alt="German" class="flag-icon" src="/images/flag-germany.svg"></a>
+					<a class="dropdown-link w-inline-block" href="/en/{{ page.ref }}">
+						<img alt="Slovak" class="flag-icon" src="/images/flag-usa.svg"></a>
+				{% endif %}
+			{% endif %}
+
+			
 		</nav>
+
 	</div>
 </div>
 
